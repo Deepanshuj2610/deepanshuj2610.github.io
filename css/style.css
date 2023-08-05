@@ -992,7 +992,7 @@ ol {
   Breadcrumb
 -----------------------*/
 .breadcrumb-option {
-  padding-top: 180px;
+  /* padding-top: 180px; */
 }
 
 .breadcrumb__text h2 {
