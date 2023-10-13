@@ -431,10 +431,12 @@ ol {
 .hero__slider.owl-carousel .owl-item.active .hero__text span {
   top: 0;
   opacity: 1;
+  text-align: center;
 }
 .hero__slider.owl-carousel .owl-item.active .hero__text h2 {
   top: 0;
   opacity: 1;
+  text-align: center;
 }
 .hero__slider.owl-carousel .owl-item.active .hero__text .primary-btn {
   top: 0;
@@ -491,10 +493,11 @@ ol {
   margin-bottom: 18px;
   position: relative;
   top: 100px;
-  opacity: 0;
+  opacity: 50%;
   -webkit-transition: all, 0.3s;
   -o-transition: all, 0.3s;
   transition: all, 0.3s;
+  
 }
 .hero__text h2 {
   color: #DDE6ED;
