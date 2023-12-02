@@ -1095,7 +1095,7 @@ ol {
 }
 
 .testimonial__text {
-  padding: 30px 40px 25px 30px;
+  padding: 25px 30px 20px 25px;
   border: 1px solid #3D3A64;
   margin-bottom: 25px;
   position: relative;
@@ -1109,7 +1109,14 @@ ol {
   line-height: 30px;
   margin-bottom: 0;
 }
-
+.testimonial__text h3 {
+  font-weight: bold;
+  color: #E7F6F2;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 0;
+}
 .testimonial__author {
   padding-left: 30px;
 }
