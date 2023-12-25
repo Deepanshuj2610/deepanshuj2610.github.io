@@ -1072,9 +1072,16 @@ ol {
   margin-bottom: 20px;
 }
 .about__pic__item.about__pic__item--large {
-  height: 490px;
+  height: 505px;
 }
-
+.about__pic__edu {
+  height: 105px;
+  margin-right: -10px;
+  margin-bottom: 20px;
+}
+.about__pic__edu.about__pic__edu--large {
+  height: 393px;
+}
 .about__text {
 }
 .about__exp {
@@ -1603,6 +1610,7 @@ ol {
   margin-top: 20px;
   justify-content: center;
   align-items: center;
+  align-content: center;
  
 }
 .buy_Me_Coffee span {
@@ -1620,7 +1628,7 @@ ol {
   color: #E7F6F2;
    padding: 14px 34px 12px;
   margin-bottom: 5px;
-  background:  #FFDD00;
+  background:  #ffffff;
   border-radius: 30px;
   justify-content: center;
   align-items: center;
