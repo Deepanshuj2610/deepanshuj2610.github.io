@@ -106,7 +106,7 @@ ol {
   Helper CSS
 -----------------------*/
 .section-title {
-  margin-bottom: 50px;
+  margin: 5px;
 }
 .section-title.center-title {
   text-align: center;
@@ -124,13 +124,35 @@ ol {
   margin-bottom: 6px;
 }
 .section-title h2 {
-  color: #E7F6F2;
-  font-weight: 700;
+  color: #B4D7D8;
+  border-radius: 30px;
+  font-weight: 900;
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 25px;
+  font-size: xx-large;
+  padding: 14px 34px 12px;
+  font-family: "Play", sans-serif;
+  border: none;
+  display: inline-block;
+  letter-spacing: 2px;
 }
-.section-title h2:after {
+
+.about__text .section-title h3 {
+  color: #B4D7D8;
+  background-color: #000;
+  background: #000;
+  border-radius: 30px;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 12px;
+  font-family: "Play", sans-serif;
+  border: none;
+  display: inline-block;
+  letter-spacing: 2px;
+  padding: 14px 34px 12px;
+}
+/* .section-title h2:after {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -138,18 +160,19 @@ ol {
   width: 70px;
   background: #A5C9CA;
   content: "";
-}
+} */
 
 .set-bg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  background-color: #2C3333 ;
+  background-color: #000000 ;
 }
 
 .spad {
   padding-top: 100px;
   padding-bottom: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .text-white h1,
@@ -226,7 +249,6 @@ ol {
   text-transform: uppercase;
   letter-spacing: 2px;
   padding: 14px 34px 12px;
-  width: 100%;
   border-radius: 30px;
 }
 
@@ -300,9 +322,8 @@ ol {
   top: 0;
   width: 100%;
   background: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 9;
-  background-color: #191C1C;
+  background-color: #000000;
 }
 
 .header__logo {
@@ -527,7 +548,7 @@ ol {
 -----------------------*/
 .work {
   overflow: hidden;
-  background: #2C3333;
+  background: #000000;
 }
 
 .work__gallery {
@@ -620,7 +641,7 @@ ol {
   Counter
 -----------------------*/
 .counter {
-  background: #2C3333;
+  background: #000000;
   height: 840px;
   padding-top: 380px;
   overflow: hidden;
@@ -788,7 +809,7 @@ ol {
   Latest
 -----------------------*/
 .latest {
-  background: #2C3333;
+  background: #000000;
   padding-bottom: 80px;
 }
 
@@ -830,7 +851,7 @@ ol {
 }
 .callto.sp__callto {
   padding-top: 0;
-  background: #2C3333;
+  background: #000000;
 }
 
 .callto__text h2 {
@@ -863,7 +884,7 @@ ol {
   Footer
 -----------------------*/
 .footer {
-  background: #191C1C;
+  background: #000000;
 }
 
 .footer__top {
@@ -1033,15 +1054,16 @@ ol {
   About
 -----------------------*/
 .about {
-  background: #2C3333;
+  background: #000000;
   padding-bottom: 50px;
   padding-top: 50px;
 }
 
 .banner {
-  background: #2C3333;
+  background: #000000;
   padding-bottom: 100px;
   padding-top: 150px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .about__pic__item {
@@ -1054,15 +1076,22 @@ ol {
 }
 
 .about__text {
+}
+.about__exp {
   padding-left: 30px;
-  padding-top: 90px;
+  padding-top: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  background-color: #1E2022;
+  padding-bottom: 30px;
 }
 .about__text .services__item .services__item__icon:after {
   border-color: #281A3E;
 }
 
 .about__text__desc {
-  margin-top: -10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /*---------------------
@@ -1096,10 +1125,12 @@ ol {
 
 .testimonial__text {
   padding: 25px 30px 20px 25px;
-  border: 1px solid #3D3A64;
+  /* border: 1px solid #3D3A64; */
   margin-bottom: 25px;
   position: relative;
   z-index: 9;
+  background-color: #1E2022;
+  border-radius: 30px;
 }
 .testimonial__text P {
   color: #E7F6F2;
@@ -1150,7 +1181,7 @@ ol {
   Services
 -----------------------*/
 .services {
-  background: #2C3333;
+  background: #000000;
   padding-bottom: 60px;
   padding-top: 110px;
 }
@@ -1202,7 +1233,7 @@ ol {
   Services Page
 -----------------------*/
 .services-page {
-  background: #2C3333;
+  background: #000000;
   padding-bottom: 50px;
 }
 
@@ -1210,7 +1241,7 @@ ol {
   Logo
 -----------------------*/
 .logo {
-  background: #191C1C;
+  background: #000000;
   padding: 100px 20px;
 }
 
@@ -1223,7 +1254,7 @@ ol {
   Portfolio
 -----------------------*/
 .portfolio {
-  background: #2C3333;
+  background: #000000;
 }
 
 .portfolio__filter {
@@ -1368,7 +1399,7 @@ ol {
     Blog
 -----------------------*/
 .blog {
-  background: #2C3333;
+  background: #000000;
 }
 
 .blog__item {
@@ -1483,7 +1514,7 @@ ol {
   Blog Details
 -----------------------*/
 .blog-details {
-  background: #2C3333;
+  background: #000000;
 }
 
 .blog__details__text {
@@ -1541,9 +1572,11 @@ ol {
 }
 
 .blog__details__tags {
-  padding-bottom: 60px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  margin-bottom: 65px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+ 
 }
 .blog__details__tags span {
   display: inline-block;
@@ -1558,11 +1591,40 @@ ol {
   color: #E7F6F2;
   display: inline-block;
   margin-right: 11px;
-  padding: 8px 15px 7px;
+   padding: 14px 34px 12px;
   margin-bottom: 5px;
-  background: rgba(255, 255, 255, 0.1);
+  background:  #B4D7D8;
+  border-radius: 30px;
 }
-
+.buy_Me_Coffee {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.buy_Me_Coffee span {
+  display: inline-block;
+  font-size: 15px;
+  color: #E7F6F2;
+  font-weight: 300;
+  margin-right: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.buy_Me_Coffee a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #E7F6F2;
+   padding: 14px 34px 12px;
+  margin-bottom: 5px;
+  background:  #FFDD00;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
 .blog__details__option {
   margin-bottom: 40px;
 }
@@ -1700,8 +1762,9 @@ ol {
   Contact Widget
 -----------------------*/
 .contact-widget {
-  background: #2C3333;
+  background: #000000;
   padding-bottom: 70px;
+  
 }
 
 .contact__widget__item {
@@ -1741,7 +1804,7 @@ ol {
   Contact
 -----------------------*/
 .contact {
-  background: #2C3333;
+  background: #000000;
   padding-top: 0;
   overflow: hidden;
 }
@@ -1757,6 +1820,18 @@ ol {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
+  background-color: #1E2022 !important;
+  align-content: center;
+  text-align: center;
+}
+.contact__form form {
+  color: #E7F6F2;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  background-color: #1E2022 !important;
+  align-content: right;
+  text-align: right;
 }
 .contact__form form input {
   height: 50px;
@@ -1781,7 +1856,7 @@ ol {
   border-color: #e1e1e1;
 }
 .contact__form form textarea {
-  height: 110px;
+  height: 60px;
   width: 100%;
   border: 1px solid rgba(225, 225, 225, 0.5);
   background: transparent;
@@ -1912,7 +1987,6 @@ ol {
   }
 
   .about__text {
-    padding-left: 10px;
   }
 
   .portfolio__filter li {
@@ -2034,6 +2108,9 @@ ol {
 
   .about__text {
     padding-left: 0;
+    padding-right: 0px;
+    border-radius: 30px;
+    background-color: #1E2022;
   }
 
   .hero__slider.owl-carousel .owl-dots {
