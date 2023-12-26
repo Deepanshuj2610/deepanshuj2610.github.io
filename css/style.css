@@ -328,6 +328,8 @@ ol {
 
 .header__logo {
   padding: 10px 0;
+  height: 100px;
+  width: 100px;
 }
 .header__logo a {
   display: inline-block;
@@ -1061,11 +1063,28 @@ ol {
 
 .banner {
   background: #000000;
-  padding-bottom: 100px;
-  padding-top: 150px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+height: 100%;
 }
-
+.banner__pic__item {
+  height: 100;
+  width: 100%;
+  margin-right: -10px;
+  margin-bottom: 20px;
+}
+.banner__pic__item.banner__pic__item--large {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  text-align: center;
+}
+.banner__pic__item.banner__pic__item--large img{
+  height: 100%;
+  width: 80%;
+  object-fit: contain;
+}
 .about__pic__item {
   height: 235px;
   margin-right: -10px;
@@ -1073,6 +1092,7 @@ ol {
 }
 .about__pic__item.about__pic__item--large {
   height: 505px;
+  object-fit: contain;
 }
 .about__pic__edu {
   height: 105px;
